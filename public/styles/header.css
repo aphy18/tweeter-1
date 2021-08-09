@@ -1,0 +1,12 @@
+/* width already defaults to 100% of parent if not specified */
+
+#header {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    z-index: -1;
+    background-color: goldenrod;
+}

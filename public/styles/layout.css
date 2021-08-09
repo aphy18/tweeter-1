@@ -21,6 +21,54 @@ body {
   font-family: "Source Sans Pro", sans-serif;
 }
 
+.container {
+  background-color: #f4f1ec;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+label {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 600;
+}
+
+#tweet-text {
+  background-color: #f4f1ec;
+  border: none;
+}
+
+#tweet-text:active,
+#tweet-text:hover {
+  outline: none;
+}
+
+
+.line {
+  width: 100%;
+  height: 2px;
+  margin: 10px 0;
+  background-color: #545149;
+}
+
+button {
+  background-color: #4056A1;
+  color: #fff;
+  font-family: 'Bungee', sans-serif;
+  padding: 5px 10px;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.counter {
+  font-family: 'Bungee', sans-serif;
+}
+
 /*
  * Additional CSS can be defined below or in other CSS files, as per instructions
  */
