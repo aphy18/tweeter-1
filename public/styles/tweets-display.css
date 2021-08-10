@@ -1,0 +1,78 @@
+.tweets-container {
+    width: 85%;
+    height: 300px;
+    border: 3px solid black;
+    margin-top: 3%;
+}
+
+.tweets-container:hover {
+    box-shadow: 10px 10px 2px #559beb;
+}
+
+.tweets-header {
+    height: 90px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.img {
+    width: 80px;
+    height: 80px;
+    margin-left: 2%;
+}
+
+.name-container {
+   width: 80%;
+   display: flex;
+   justify-content: flex-start;
+}
+
+#tweets-email {
+    margin-right: 2%;
+}
+
+.tweets-body {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 600;
+    width: 95%;
+    height: 45%;
+    margin-left: 2.5%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.tweets-line {
+    height: 5px;
+    background-color: #545149;
+    width: 98%;
+    margin-left: 1%;
+    font-weight: bolder;
+
+}
+
+.tweets-footer {
+    padding-top: 1.5%;
+    display: flex;
+    justify-content: space-between;
+    height: 15%;
+    align-items: center;
+    margin: 1% 1% 0 1%;
+
+}
+
+.how-long-ago {
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.emote-list {
+    list-style: none;
+    display: flex;
+}
+
+.emote {
+    color: #4056A1;
+    font-size: 20px;
+}

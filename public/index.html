@@ -16,12 +16,15 @@
     <link rel="stylesheet" href="/styles/layout.css" type="text/css" />
     <link rel="stylesheet" href="/styles/nav.css" type="text/css" />
     <link rel="stylesheet" href="/styles/header.css" type="text/css" />
+    <link rel="stylesheet" href="/styles/tweets-display.css">
 
     <!-- External JS -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+   
 
     <!-- App JS -->
     <script type="text/javascript" src="/scripts/client.js"></script>
+    <script type="text/javascript" src="scripts/composer-char-counter.js"></script>
   </head>
 
   <body>
@@ -53,10 +56,31 @@
           <textarea name="text" id="tweet-text"></textarea>
           <div class="line"></div>
           <div class="footer">
-            <button type="submit">Tweet</button>
+            <button id="btn" type="button">Tweet</button>
             <output name="counter" class="counter" for="tweet-text">140</output>
           </div>
         </form>
+      </section>
+      <section class="tweets-container">
+        <header class="tweets-header">
+            <img src="/images/profile-hex.png" alt="" class="img">
+            <div class="name-container">
+              <span>Rhoda Jacobs</span>
+            </div>
+            <span id="tweets-email">@MrsJacobs</span>
+         </header>
+        <div class="tweets-body">
+          <p>I eat coffee beans</p>
+        </div>
+        <div class="tweets-line"></div>
+        <footer class="tweets-footer">
+          <span class="how-long-ago">10 days ago</span>
+          <ul class="emote-list">
+            <li class="emote"><i class="fas fa-flag"></i></li>
+            <li class="emote"><i class="fas fa-retweet"></i></li>
+            <li class="emote"><i class="fas fa-heart"></i></li>
+          </ul>
+        </footer>
       </section>
     </main>
   </body>
