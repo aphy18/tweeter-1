@@ -6,7 +6,6 @@ nav {
     justify-content: space-between;
     align-items: center;
     position: fixed;
-    top: 0%;
     width: 100%
     
 }
@@ -21,4 +20,14 @@ nav {
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+#arrow {
+    color: red;
+}
+
+@media(max-width: 800px) {
+  nav {
+    background-color: goldenrod;
+  }
 }
