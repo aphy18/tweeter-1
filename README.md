@@ -1,4 +1,4 @@
-# Tweeter Project
+# Aphason's Tweeter Project
 
 Tweeter is a simple, single-page Twitter clone.
 
@@ -15,3 +15,11 @@ This repository is the starter code for the project: Students will fork and clon
 
 - Express
 - Node 5.10.x or above
+
+## Final Product
+
+!["invalid-submission"](https://github.com/aphy18/tweeter-1/blob/master/docs/invalid%20submission.png raw=true)
+
+!["tweeter-display"](https://github.com/aphy18/tweeter-1/blob/master/docs/tweeter%20display.png?raw=true)
+
+!["tweeter-minimize"](https://github.com/aphy18/tweeter-1/blob/master/docs/tweeter%20minimized.png?raw=true)
